@@ -1,0 +1,21 @@
+body {
+  border: 2px solid;
+}
+
+#box1 {
+  border: 5px solid;
+  width: 250px;
+  font-size: 22px;
+  background: greenyellow;
+
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 80px;
+}
+
+#box2 {
+  border: 5px solid;
+  width: 250px;
+  font-size: 22px;
+  background: dodgerblue;
+}
