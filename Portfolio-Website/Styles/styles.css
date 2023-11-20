@@ -1,0 +1,253 @@
+/* 1. Resetting default styles for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5rem !important;
+}
+
+/* 2. Styling for the navigation bar */
+nav {
+  background-color: white;
+  padding: 1.5rem;
+  box-shadow: 0px 0px 5px rgb(173, 230, 201);
+  position: fixed;
+  width: 100%;
+}
+
+/* 3. Styling for the header within the navigation bar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+/* 4. Styling for the h3 element within the header */
+header > h3 {
+  font-weight: bold;
+}
+
+/* 5. Styling for the container of navigation links */
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+/* 6. Styling for individual navigation links */
+.nav-links > a {
+  text-decoration: none;
+  color: black;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+/* 7. Styling for navigation links on hover */
+.nav-links > a:hover {
+  color: rgb(0, 110, 255);
+}
+
+/* 8. Styling for the home content section */
+.home-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  padding: 1.5rem;
+}
+
+/* 9. Styling for the image within the home content */
+.home-content > img {
+  height: 500px;
+}
+
+/* 10. Styling for the home description section */
+.home-desc {
+  width: 50%;
+}
+
+/* 11. Styling for the h3 element within the home description */
+.home-desc > h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: rgb(0, 110, 255);
+}
+
+/* 12. Styling for paragraphs within the home description */
+.home-desc > p {
+  margin-bottom: 1.5rem;
+  line-height: 1.5rem;
+}
+
+/* 13. Styling for the button within a link in the home description */
+.home-desc > a > button {
+  padding: 0.7rem 2rem;
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid rgb(0, 110, 255);
+  border-radius: 6px;
+  color: rgb(0, 110, 255);
+  cursor: pointer;
+}
+
+/* 14. Styling for the button on hover within the home description */
+.home-desc > a > button:hover {
+  background-color: rgb(0, 110, 255);
+  border: 1px solid rgb(0, 110, 255);
+  color: white;
+}
+
+/* 15. Styling for the about content section */
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding: 1.5rem;
+  height: 90vh;
+  padding-top: 10rem !important;
+}
+
+/* 16. Styling for the h3 element within the about content */
+.about-content > h3 {
+  color: rgb(0, 110, 255);
+  font-size: 4rem;
+}
+
+/* 17. Styling for the about description section */
+.about-desc {
+  width: 50%;
+}
+
+/* 18. Styling for the h3 element within the about description */
+.about-desc > h3 {
+  color: rgb(0, 110, 255);
+  margin-bottom: 1rem;
+}
+
+/* 19. Styling for paragraphs within the about description */
+.about-desc > p {
+  margin-bottom: 1rem;
+}
+
+/* 20. Styling for the resume content section */
+.resume-content {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding: 1.5rem;
+  height: 90vh;
+  padding-top: 10rem !important;
+}
+
+/* 21. Styling for the h3 element within the resume content */
+.resume-content > h3 {
+  color: rgb(0, 110, 255);
+  font-size: 4rem;
+}
+
+/* 22. Styling for the resume description section */
+.resume-desc {
+  width: 50%;
+}
+
+/* 23. Styling for the h3 element within the resume description */
+.resume-desc > h3 {
+  color: rgb(0, 110, 255);
+  margin-bottom: 1rem;
+}
+
+/* 24. Styling for paragraphs within the resume description */
+.resume-desc > p {
+  margin-bottom: 1rem;
+}
+
+/* 25. Styling for list items within the resume description */
+.resume-desc > li {
+  margin-left: 1rem;
+}
+
+/* 26. Styling for the contact content section */
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding: 1.5rem;
+  padding-top: 10rem !important;
+}
+
+/* 27. Styling for the h3 element within the contact content */
+.contact-content > h3 {
+  color: rgb(0, 110, 255);
+  font-size: 4rem;
+}
+
+/* 28. Styling for the contact description section */
+.contact-desc {
+  width: 50%;
+}
+
+/* 29. Styling for the h3 element within the contact description */
+.contact-desc > h3 {
+  color: rgb(0, 110, 255);
+  margin-bottom: 1rem;
+}
+
+/* 30. Styling for paragraphs within the contact description */
+.contact-desc > p {
+  margin-bottom: 1rem;
+  font-size: 20px;
+}
+
+/* 31. Styling for text input */
+input[type="text"] {
+  padding: 10px;
+  border: 0;
+  width: 100%;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+
+/* 32. Styling for text area input */
+textarea {
+  width: 100%;
+  padding: 10px;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+
+/* 33. Styling for the button within the contact form */
+.contact-desc > form > button {
+  padding: 0.7rem 2rem;
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid rgb(0, 110, 255);
+  border-radius: 6px;
+  color: rgb(0, 110, 255);
+  cursor: pointer;
+}
+
+/* 34. Styling for the button on hover within the contact form */
+.contact-desc > form > button:hover {
+  background-color: rgb(0, 110, 255);
+  border: 1px solid rgb(0, 110, 255);
+  color: white;
+}
+
+/* 35. Styling for the footer section */
+.footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 100%;
+  background-color: rgb(0, 110, 255);
+}
+
+/* 36. Styling for the content within the footer */
+.footer-content {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
