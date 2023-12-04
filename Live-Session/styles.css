@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.5rem !important;
+}
+
+/* 2. Styling for the navigation bar */
+nav {
+  background-color: white;
+  padding: 1.5rem;
+  box-shadow: 0px 0px 5px rgb(173, 230, 201);
+  position: fixed;
+  width: 100%;
+}
+
+/* 3. Styling for the header within the navigation bar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+/* 4. Styling for the h3 element within the header */
+header > h3 {
+  font-weight: bold;
+}
+
+/* 5. Styling for the container of navigation links */
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+
+/* 6. Styling for individual navigation links */
+.nav-links > a {
+  text-decoration: none;
+  color: black;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+/* 7. Styling for navigation links on hover */
+.nav-links > a:hover {
+  color: rgb(0, 110, 255);
+}
+
+/* 8. Styling for the home content section */
+.home-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  padding: 1.5rem;
+}
+
+/* 9. Styling for the image within the home content */
+.home-content > img {
+  height: 500px;
+}
+
+/* 10. Styling for the home description section */
+.home-desc {
+  width: 50%;
+}
+
+/* 11. Styling for the h3 element within the home description */
+.home-desc > h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: rgb(0, 110, 255);
+}
+
+/* 12. Styling for paragraphs within the home description */
+.home-desc > p {
+  margin-bottom: 1.5rem;
+  line-height: 1.5rem;
+}
+
+/* 13. Styling for the button within a link in the home description */
+.home-desc > a > button {
+  padding: 0.7rem 2rem;
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid rgb(0, 110, 255);
+  border-radius: 6px;
+  color: rgb(0, 110, 255);
+  cursor: pointer;
+}
+
+/* 14. Styling for the button on hover within the home description */
+.home-desc > a > button:hover {
+  background-color: rgb(0, 110, 255);
+  border: 1px solid rgb(0, 110, 255);
+  color: white;
+}
