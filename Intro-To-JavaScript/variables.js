@@ -1,7 +1,6 @@
-let name = "John";
-let age = 24;
-let isStudent = false;
+let favFood = "Chapati"; //String variable, favfood is the name of the variable and chapati is the value
+let howManyChapatis = 5; //howManyChapatis is a number/integer variable, and 5 is the current value
+let isHungry = true;
 
-console.log("Name : ", name);
-console.log("Age : ", age);
-console.log("Is Student : ", isStudent);
+//console.log() is a function used to print out values of variables.
+console.log(favFood);
