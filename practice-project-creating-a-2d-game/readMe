@@ -1,0 +1,26 @@
+# Breakout Game
+
+## Overview
+
+This is a simple 2D Breakout game built using HTML, CSS, and JavaScript. The game includes a paddle, a ball, and bricks that the player must break to score points.
+
+## Features
+
+- Paddle controlled by arrow keys
+- Breakable bricks
+- Score tracking
+- Lives counter
+- Game over and win conditions
+
+## Getting Started
+
+### Prerequisites
+
+- Web browser (e.g., Chrome, Firefox, Safari)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/breakout-game.git
+   ```
