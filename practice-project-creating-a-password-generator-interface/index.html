@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Top 10 Web Apps</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Top 10 Web Apps and Exact Number of Users</h1>
+
+      <div class="button-container">
+        <button class="btn btn-primary" onclick="sortMostUsers()">
+          Sort Most Users
+        </button>
+        <button class="btn btn-success" onclick="sortFewestUsers()">
+          Sort Fewest Users
+        </button>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Web App</th>
+            <th>Number of Users</th>
+          </tr>
+        </thead>
+        <tbody id="webAppTableBody"></tbody>
+      </table>
+    </div>
+
+    <!-- External script for data manipulation -->
+    <script src="script.js"></script>
+  </body>
+</html>
